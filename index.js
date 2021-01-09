@@ -7,25 +7,25 @@ inquirer
     {
       type: "input",
       message: "What is your projects name?",
-      name: "projectname",
+      name: "project_name",
     },
 
     {
       type: "input",
       message: "tell me about your project",
-      name: "projectinfo",
+      name: "project_info",
     },
 
     {
       type: "input",
       message: "installation instructions",
-      name: "installation instuctions",
+      name: "installation_instuctions",
     },
 
     {
       type: "input",
       message: "License usage (normal license is MIT)",
-      name: "usageinstructions",
+      name: "usage_instructions",
     },
 
     {
@@ -37,7 +37,7 @@ inquirer
     {
       type: "input",
       message: "Test notes",
-      name: "testnotes",
+      name: "test_notes",
     },
     {
       type: "input",
@@ -46,6 +46,51 @@ inquirer
     },
   ])
 
-  .then((answers) => {
-    console.log(answers);
+  .then(function getfile(answer) {
+    console.log(answer);
+
+    const readmetemp = ` ### ${answer.project_name}
+
+![License: ${answer.usage_instructions}](https://img.shields.io/badge/License-${answer.usage_instructions}-green.svg)
+    
+## description:
+    
+    ${answer.project_info}
+    
+## TOC
+    
+- [Installation](#installation)
+    
+- [Usage](#usage)
+    
+- [Testing](#tests)
+    
+- [Contributers](#Contributers)
+    
+- [FAQs](#FAQs)
+    
+## Installation:
+    
+${answer.installation_instuctions}
+    
+## Usage
+    
+${answer.usage_instructions}
+    
+## Testing
+    
+${answer.test_notes}
+    
+ ## Contributers
+    
+${answer.contributers}
+    
+## FAQs
+    
+${answer.FAQ}
+    `;
+
+    fs.writeFile(`readme.md`, readmetemp, (err) =>
+      err ? console.error(err) : console.log("no error")
+    );
   });
