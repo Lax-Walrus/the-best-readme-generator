@@ -1,37 +1,42 @@
-### The best Read me Generator
-
-![snapShot](https://media.giphy.com/media/0G4q2IYhG0NjHJOoB6/giphy.gif)
+ ### The Best Employee Tracking App
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
+![snapshot]:()
+    
 ## description:
-
-    This creates a readme markdown file with styling based on user inputed information
-
+    
+    This app takes user inputed data and adds it to a mysql database. node allows you to view list add a user and update user
+    
 ## TOC
-
+    
 - [Installation](#installation)
+    
 - [Usage](#usage)
+    
 - [Testing](#tests)
+    
 - [Contributers](#Contributers)
+    
 - [FAQs](#FAQs)
-
+    
 ## Installation:
-
-pull from Github, then run node index.html in terminal or Gitbash
-
+    
+fork from github / clone, npm init in integrated terminal, node index.js
+    
 ## Usage
-
+    
 MIT
-
+    
 ## Testing
-
-N/A
-
-## Contributers
-
+    
+NA
+    
+ ## Contributers
+    
 Kevin Lyons
-
+    
 ## FAQs
-
-uses Node, Javascript, inquirer, fs library
+    
+Update is still WIP issues with async running prompt before loop can cycle through users in employee table
+    
