@@ -1,42 +1,59 @@
- ### The Best Employee Tracking App
+### The best Read me Generator	 ### The Best Employee Tracking App
 
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![snapShot](https://media.giphy.com/media/0G4q2IYhG0NjHJOoB6/giphy.gif)	
 
-![snapShot](https://media.giphy.com/media/0G4q2IYhG0NjHJOoB6/giphy.gif)
+
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)	![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
+
+![snapshot]:()
+
+## description:	## description:
+
     
-## description:
+    This creates a readme markdown file with styling based on user inputed information	    This app takes user inputed data and adds it to a mysql database. node allows you to view list add a user and update user
+
     
-    This app takes user inputed data and adds it to a mysql database. node allows you to view list add a user and update user
+## TOC	## TOC
+
     
-## TOC
+- [Installation](#installation)	- [Installation](#installation)
+
+- [Usage](#usage)	- [Usage](#usage)
+
+- [Testing](#tests)	- [Testing](#tests)
+
+- [Contributers](#Contributers)	- [Contributers](#Contributers)
+
+- [FAQs](#FAQs)	- [FAQs](#FAQs)
+
     
-- [Installation](#installation)
+## Installation:	## Installation:
+
     
-- [Usage](#usage)
+pull from Github, then run node index.html in terminal or Gitbash	fork from github / clone, npm init in integrated terminal, node index.js
+
     
-- [Testing](#tests)
+## Usage	## Usage
+
     
-- [Contributers](#Contributers)
+MIT	MIT
+
     
-- [FAQs](#FAQs)
+## Testing	## Testing
+
     
-## Installation:
+N/A	NA
+
     
-fork from github / clone, npm init in integrated terminal, node index.js
+## Contributers	 ## Contributers
+
     
-## Usage
+Kevin Lyons	Kevin Lyons
+
     
-MIT
-    
-## Testing
-    
-NA
-    
- ## Contributers
-    
-Kevin Lyons
-    
-## FAQs
-    
-Update is still WIP issues with async running prompt before loop can cycle through users in employee table
+## FAQs	## FAQs
+
+
+uses Node, Javascript, inquirer, fs library
     
