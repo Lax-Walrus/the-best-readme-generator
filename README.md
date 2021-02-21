@@ -2,7 +2,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-![snapshot]:()
+![snapShot](https://media.giphy.com/media/0G4q2IYhG0NjHJOoB6/giphy.gif)
     
 ## description:
     
